@@ -1,0 +1,59 @@
+.navbar{
+    align-items: center; 
+}
+.separator{
+    width: 1rem;
+}
+.form-inline{
+    margin:  1rem auto;
+}
+.nav-buttons
+{
+    font-size: large !important;  
+}
+.row{
+    padding: 0.8rem ;
+}
+.card{
+    padding: 1rem;
+    height : max-content ;
+    width : 520px ;
+}
+@media (max-width: 700px) {
+    .card {
+        height : fit-content ;
+        width : 100%;
+  }
+  }
+  
+
+.card-body .card-title{
+    font-size: x-large;
+    font-weight: 600;
+    color : #458CAA ;
+}
+
+.topic-boxes {
+    display: flex;
+    gap: 5px; /* Adjust the gap as needed */
+    flex-wrap: wrap;
+  }
+
+  .topic-box {
+    background-color: #458CAA;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 5px; /* Adjust the margin as needed */
+    margin-bottom: 5px; /* Adjust the margin as needed */
+  }
+
+  .pagination .page-link,
+  .pagination .page-item.disabled .page-link {
+    color: #458CAA; /* Set your desired color for active and disabled links */
+  }
+  .pagination .page-item.active .page-link {
+    background-color: #458CAA; /* Highlight color for the active page */
+    color: #fff; /* Text color for the active page */
+    border-color : #458CAA;
+}
